@@ -1,0 +1,36 @@
+{
+  "name": "driver-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server-dev": "nodemon server/index.js",
+    "test": "mocha --bail --reporter nyan spec/tests.js; pkill -n node;"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianpak8/driver-service.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianpak8/driver-service/issues"
+  },
+  "homepage": "https://github.com/brianpak8/driver-service#readme",
+  "dependencies": {
+    "aws-sdk": "^2.173.0",
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "knex": "^0.14.2",
+    "mocha": "^4.0.1",
+    "mysql": "^2.15.0",
+    "node": "^9.2.0",
+    "nodemon": "^1.12.5",
+    "redis": "^2.8.0"
+  }
+}
